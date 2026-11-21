@@ -1,3 +1,5 @@
-def main():
-  print "Customer Support Platform is starting..."
-if name == main: main() 
+from fastapi import FastApi
+app = FastApi()
+app.get(/):
+  def read_root():
+    return "Hello World"
